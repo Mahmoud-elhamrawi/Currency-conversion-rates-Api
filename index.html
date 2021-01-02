@@ -1,0 +1,98 @@
+<!-- 
+===========================================
+1- home section 
+2-
+=========================================
+-->
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <header id="home">
+        <div class="container">
+        <!-- <div class="row"> -->
+        
+            <div class="col-md-2 offset-10">
+                <!-- <h5> Contact me :</h5> -->
+                <p><a href="https://github.com/Mahmoud-elhamrawi" target="_blank"> 
+                    <i class="fab fa-github fa-2x"></i></a></p>
+                <p><a href="https://www.facebook.com/profile.php?id=100001542958988"  target="_blank"><i class="fab fa-facebook  fa-2x"></i></a></p>
+            </div>
+            <div class="col-md-8 offset-2 ">
+
+
+                <h1 class="home-title">!!! معاك كام !!! </h1>
+                <h2>معاك عمله  وعاوز تعرف بكام فى بلدك</h2>
+                <!-- <h2 class="home-sub-title">من : دولار</h2>
+                <h2 class="home-sub-title">الى  : مصرى  , يورو  , سعودى  ,استرالينى </h2>
+                <h2 class="home-sub-title"> او انت اختار عملتك  </h2> -->
+
+
+                <div class="form-group">
+
+                    <select class="form-control mb-3" id="sel">
+                        <option hidden> select ur cueeency </option>
+                        <option value="USD">USD</option>
+                        <option value="EGP">EGY</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBG</option>
+                        <option value="SAR">Saudi</option>
+
+                    </select>
+
+
+                    <!-- <input type="text" class="form-control mb-3" placeholder="Select Type Cuerrency" id="typecurrency"> -->
+                    <input type="number" id="num" onkeyup="regsnumber();" class="form-control w-100 mb-2" placeholder="type anumber">
+                    <p class="alert alert-danger d-none" id="alertnumber"> Wrong ?? !Enter number</p>
+                    <p class="alert alert-info d-none" id="alertall"> Wrong ?? Refresh ur page f5</p>
+                    <button class="btn btn-success mt-3 w-50" id="mybtn">Convert</button>
+                  
+                </div>
+                <hr />
+                <div class="output d-none" id="cards">
+                    <div class="card  bg-primary mt-3 mb-3" id="card-eg"></div>
+                    <div class="card  bg-secondary mt-3 mb-3" id="card-usd"></div>
+                    <div class="card  bg-success  mb-3" id="card-eur"></div>
+                    <div class="card  bg-secondary mt-3 mb-3" id="card-gbg"></div>
+                    <div class="card  bg-warning  mb-3" id="card-sar"></div>
+
+                </div>
+            </div>
+
+        <!-- </div> -->
+        </div>
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrpt.js"></script>
+</body>
+
+</html>

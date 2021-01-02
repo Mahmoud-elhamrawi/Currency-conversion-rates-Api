@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    background: linear-gradient(rgb(35, 35, 177),rgb(11, 3, 51));
+font-family: 'sego ui light';
+}
+
+#home{
+/* height: 100vh; */
+/* background: linear-gradient(rgb(35, 35, 177),rgb(11, 3, 51)); */
+text-align: center;
+color: #fff;
+padding: 5% 5%;
+
+}
+.home-title{
+font-weight: lighter;
+text-transform: capitalize;
+margin-bottom:1.5rem;
+}
+.home-sub-title{
+    text-transform:uppercase;
+    margin: 1.5rem 0;
+}
+.output{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    /* text-align: left; */
+}
+.card{
+    /* margin-left: 3rem !important; */
+    padding-left:1.3rem
+}
+.col-md-2 {
+    /* position: absolute;
+    top: 80%;
+    left: 70%; */
+    /* display:inline-block; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+
+}
+p:hover a{
+    text-decoration: none;
+
+}
+p a i{
+    color: black;
+    font-size: 30px;
+}
